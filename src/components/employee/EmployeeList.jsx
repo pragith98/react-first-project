@@ -63,7 +63,7 @@ const EmployeeListComponent = () => {
 function EmployeeList() {
   return (
     <div className="row">
-      <div className="col-5 mx-auto">
+      <div className="col-sm-5 mx-auto">
         <ul className="list-group">
           <EmployeeListComponent></EmployeeListComponent>
         </ul>
