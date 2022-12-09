@@ -7,7 +7,10 @@ function App() {
   return (
     <React.Fragment>
       <NavigationBar></NavigationBar>
-      <EmployeeList></EmployeeList>
+      <div className="container mt-3">
+        <EmployeeList></EmployeeList>
+      </div>
+      
     </React.Fragment>
   );
 }
