@@ -4,7 +4,7 @@ const employees = [
   {
     id: 1,
     name: {
-      title: "Mr",
+      title: "Mr.",
       first: "Jennie",
       last: "Nichols",
     },
@@ -21,7 +21,7 @@ const employees = [
   {
     id: 2,
     name: {
-      title: "Mr",
+      title: "Mr.",
       first: "Erica",
       last: "Gonzales",
     },
@@ -38,7 +38,7 @@ const employees = [
   {
     id: 3,
     name: {
-      title: "Mr",
+      title: "Mr.",
       first: "Jeremiah",
       last: "Chapman",
     },
@@ -62,9 +62,13 @@ const EmployeeListComponent = () => {
 
 function EmployeeList() {
   return (
-    <ul>
-      <EmployeeListComponent></EmployeeListComponent>
-    </ul>
+    <div className="row">
+      <div className="col-5 mx-auto">
+        <ul className="list-group">
+          <EmployeeListComponent></EmployeeListComponent>
+        </ul>
+      </div>
+    </div>
   );
 }
 
