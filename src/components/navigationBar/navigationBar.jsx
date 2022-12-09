@@ -1,7 +1,9 @@
 function NavigationBar() {
   return (
-    <nav>
-      <h1>Employees</h1>
+    <nav className="navbar bg-light">
+      <div className="container-fluid">
+        <span className="navbar-brand mb-0 h1">Employees</span>
+      </div>
     </nav>
   );
 }
