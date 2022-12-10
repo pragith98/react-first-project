@@ -6,11 +6,10 @@ import React from "react";
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar></NavigationBar>
+      <NavigationBar />
       <div className="container mt-3">
-        <EmployeeList></EmployeeList>
+        <EmployeeList />
       </div>
-      
     </React.Fragment>
   );
 }
